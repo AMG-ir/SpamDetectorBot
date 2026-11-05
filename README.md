@@ -17,6 +17,7 @@ A lightweight, rule-based spam detector for incoming project bids. The applicati
 ```text
 SpamDetectorBot/
 ├── .gitignore
+├── LICENSE
 ├── config.json
 ├── incoming_bids.csv
 ├── requirements.txt
@@ -146,4 +147,4 @@ The example illustrates the output format; the actual values depend on the input
 
 ## License
 
-No license file is currently present in the repository. Add a `LICENSE` file if you want to specify how others may use, modify, and distribute this project.
+This project is licensed under the [MIT License](LICENSE).
