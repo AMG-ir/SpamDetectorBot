@@ -16,12 +16,12 @@ A lightweight, rule-based spam detector for incoming project bids. The applicati
 
 ```text
 SpamDetectorBot/
+├── .gitignore
 ├── config.json
 ├── incoming_bids.csv
 ├── requirements.txt
 ├── run.py
-├── logs/
-│   └── spam_log.json
+├── logs/                # created at runtime; spam_log.json is generated here
 └── spam_filter/
     ├── __init__.py
     ├── detector.py
@@ -31,9 +31,7 @@ SpamDetectorBot/
 ## Requirements
 
 - Python 3
-- The packages listed in `requirements.txt`
-
-The current implementation directly imports **pandas**. The requirements file also lists Streamlit, spaCy, and scikit-learn, although they are not currently used by the code in this repository.
+- The packages listed in `requirements.txt` (currently only **pandas**)
 
 ## Setup
 

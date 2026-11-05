@@ -1,7 +1,1 @@
 pandas>=2.0
-streamlit>=1.25
-spacy>=3.5
-scikit-learn>=1.3
-
-
-
